@@ -80,7 +80,6 @@ done
 
 最好能够对release的构建进行测试，如果对debug的构建进行测试，运行速度会非常慢。
 
-另外，似乎只能对core进行测试，因为一旦在`with-jvm-features`中加入了`compiler2`就会出现错误，即使是加上了`-Xint`也一样（加和不加的错误不同）。
 
 ### jtreg
 
@@ -110,7 +109,7 @@ export JT_JAVA=/path/tojdk # 并不是被测试的jdk，是用来执行运行框
 
 ![image-20220725141201364](image-20220725141201364.png)
 
-其构建参数使用了：`--with-debug-level=release`、`--with-jvm-variants=core`。
+其构建参数使用了：`--with-debug-level=release`、`--with-jvm-variants=core`。似乎只能对core进行测试，因为一旦在`with-jvm-features`中加入了`compiler2`就会出现错误，即使是加上了`-Xint`也一样（加和不加的错误不同）。
 
 ### SPECjvm2008
 
