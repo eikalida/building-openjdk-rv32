@@ -9,7 +9,7 @@
 
 ## 安装编译工具链和openjdk依赖库
 
-按照[1]中的**[交叉编译RV32G的OpenJDK11(ZERO)](https://github.com/openjdk-riscv/jdk11u/wiki/Build-OpenJDK11(zero-VM)-for-RV32G)**、**[编译JDK所需额外库的安装脚本](https://github.com/openjdk-riscv/jdk11u/wiki/External-Libraries)**来进行就行了，只要不出现网络问题基本上应该是没有问题的，教程中也给出了网络出现问题时的解决方法。
+按照[1]中的[交叉编译RV32G的OpenJDK11(ZERO)](https://github.com/openjdk-riscv/jdk11u/wiki/Build-OpenJDK11(zero-VM)-for-RV32G)、[编译JDK所需额外库的安装脚本](https://github.com/openjdk-riscv/jdk11u/wiki/External-Libraries)来进行就行了，只要不出现网络问题基本上应该是没有问题的，教程中也给出了网络出现问题时的解决方法。
 
 
 
